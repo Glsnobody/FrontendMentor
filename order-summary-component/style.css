@@ -16,12 +16,13 @@ h1{
     font-size: 23px;
 }
 
-h4{
+h2{
     font-weight: 700;
     display: inline-block;
+    font-size: 16px;
 }
 
-h1, h4{
+h1, h2{
     color: hsl(223, 47%, 23%);
 }
 
