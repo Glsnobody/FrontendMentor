@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    line-height: 1.6;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 23px;
+}
+
+h2{
+    font-weight: 700;
+    display: inline-block;
+    font-size: 16px;
+}
+
+h1, h2{
+    color: hsl(223, 47%, 23%);
+}
+
+p{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 300;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > img{
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 1920px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 10px;
+    width: 360px;
+    height: 625px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.card > img{
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    margin: 20px 0;
+}
+
+.card-body a:nth-child(4){
+    display: inline-block;
+    background-color: hsl(245, 75%, 52%);
+    padding: 15px 75px;
+    color: hsl(225, 100%, 94%);
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.card-body a:nth-child(5){
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+.card-body > a{
+    text-decoration: none;
+}
+
+.card-body .plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    width: 315px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.card-body .plan img{
+    width: 50px;
+}
+
+.card-body .plan a{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.card-body .plan .plan-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
